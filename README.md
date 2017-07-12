@@ -24,8 +24,8 @@ var to_eslint = {
 }
 
 var to_jscs_and_jshint = {
-  jshint: polyjuice.to.jshint(['./.eslintrc')],
-  jscs  : polyjuice.to.jscs(['./.eslintrc')],
+  jshint: polyjuice.to.jshint(['./.eslintrc']),
+  jscs  : polyjuice.to.jscs(['./.eslintrc']),
   both  : polyjuice.from.eslint(['./.eslintrc'])
 }
 ```
